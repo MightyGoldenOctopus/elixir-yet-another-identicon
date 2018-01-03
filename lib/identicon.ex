@@ -138,6 +138,6 @@ defmodule Identicon do
   Save a rendered image on hard drive nammed by the original text input
   """
   def save_image(image, filename) do
-    File.write("#{filename}.png")
+    File.write("#{filename}.png", image)
   end
 end
