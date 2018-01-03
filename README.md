@@ -1,21 +1,11 @@
 # Identicon
-
-**TODO: Add description**
-
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `identicon` to your list of dependencies in `mix.exs`:
+Generate a unique 250x250 image based on a string (weell it makes identicons).
+Just a small annoted and documented project to play with Elixir and become familiar with it's syntax.
+Not hoping anyone but me to love it.
+## Usage
 
 ```elixir
-def deps do
-  [
-    {:identicon, "~> 0.1.0"}
-  ]
-end
+iex -S mix
+iex> Identicon.main("banana")
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/identicon](https://hexdocs.pm/identicon).
 
