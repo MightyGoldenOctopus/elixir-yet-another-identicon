@@ -8,4 +8,4 @@ Not hoping anyone but me to love it.
 iex -S mix
 iex> Identicon.main("banana")
 ```
-
+And your file is now stored as ```./banana.png```.
