@@ -9,3 +9,10 @@ iex -S mix
 iex> Identicon.main("banana")
 ```
 And your file is now stored as ```./banana.png```.
+
+## Generate the docs
+
+```elixir
+mix docs
+```
+And the doc is now available at ```./doc/index.html```.
